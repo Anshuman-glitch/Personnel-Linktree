@@ -1,0 +1,63 @@
+@font-face{
+font-family:font1;
+src:url("Mojang-Bold.ttf");
+
+}
+
+*{
+   background-color: rgba(0,0,0,0);
+   
+  padding:0px;
+  margin:0px;
+  font-family:font1;
+}
+h1{
+    color:rgb(90, 239, 90);
+}
+
+a{
+    color:rgb(90, 216, 90);
+    text-decoration:none;
+}
+
+
+#IMG{
+    height:800px;
+    background-image:url("linktree2.jpg");
+    background-size:cover;
+    color:rgb(90, 188, 90);
+    
+    font-size:20px;
+    
+}
+
+img{
+    margin-left:450px;
+    width: 250px;
+    height: 250px;
+    border-width: 400px;
+    border-radius:200px;;
+    border-color:green;
+    
+    
+}
+button{
+    width:400px;
+    height:50px;
+    background-color:black;
+    color:lightgreen;
+    border-width:5px;
+    border-color:lightgreen;
+    border-radius:20px;
+}
+.b1{
+    transition: background-color 0.01s ease-in , color 0.01s ease-in,
+     border 0.01s ease-in; 
+}
+
+.b1:hover{
+    background-color:lightgreen;
+    color: black;
+    border: 5px solid rgb(0, 0, 0);
+}
+
